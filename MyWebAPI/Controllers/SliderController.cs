@@ -107,7 +107,7 @@ namespace MyWebAPI.Controllers
                 return "Deleted OK";
             }
             else
-                return "Delete Not Ok";
+                return "Delete Not Okk";
         
         }
 
