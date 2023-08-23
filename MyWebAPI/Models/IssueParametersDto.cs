@@ -4,7 +4,7 @@
     {
         public int Page { get; set; }
         public int PerPage { get; set; }
-        public Issue.IssueType? Type { get; set; }
+        public Issue1.IssueType? Type { get; set; }
         public IssueSort? Sort { get; set; }
         public IssueSortDirection Direction { get; set; } = IssueSortDirection.Asc; 
 

@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MyWebAPI.Models;
+using MyWebAPI.Models.Interfaces;
+using MyWebAPI.Models.Repository;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,7 +21,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<MyContext>(
     option => option.UseSqlServer(builder.Configuration.GetConnectionString("MyConnectionString")));
-    
+
+//builder.Services.AddScoped<IIssueRepository, IssueRepository>();
 
 var app = builder.Build();
 

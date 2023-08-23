@@ -2,7 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyWebAPI.Models;
-using MyWebAPI.Models.Interfaces;
+//using MyWebAPI.Models.Interfaces;
+//using MyWebAPI.Models.Interfaces;
 
 namespace MyWebAPI.Controllers
 {
@@ -91,8 +92,8 @@ namespace MyWebAPI.Controllers
         //        _context.Issues.Update(currentissue);
         //        await _context.SaveChangesAsync();
         //    }
-        //    else 
-        //        return NotFound();  
+        //    else
+        //        return NotFound();
 
         //    return Ok();
         //}
@@ -100,7 +101,7 @@ namespace MyWebAPI.Controllers
         //[HttpDelete("id")]
         //public async Task<string> Delete(int id)
         //{
-        //    var issue =await _context.Issues.FindAsync(id);
+        //    var issue = await _context.Issues.FindAsync(id);
         //    if (issue != null)
         //    {
         //        _context.Issues.Remove(issue);
@@ -112,9 +113,22 @@ namespace MyWebAPI.Controllers
 
         //}
 
+        //private readonly IIssueRepository _issueReposotory;
+        //public SliderController(IIssueRepository repository) 
+        //{
+        //    _issueReposotory = repository;
+        //}
+
+        //[HttpGet]
+        //public IEnumerable<Issue> GetIssueList() 
+        //{
+        //    var lst= _issueReposotory.GetIssues();
+
+        //    return lst;
+        
+        
+        //}
 
 
-        private readonly ISliderRepository sliderRepository;
-        public Sl
     }
 }

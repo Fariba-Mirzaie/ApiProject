@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MyFiles\\Project\\MyWebAPI\\MyWebAPI\\MyWebAPI.csproj": {}
+    "D:\\MyProject\\MyAPI\\ApiProject\\MyWebAPI\\MyWebAPI.csproj": {}
   },
   "projects": {
-    "E:\\MyFiles\\Project\\MyWebAPI\\MyWebAPI\\MyWebAPI.csproj": {
+    "D:\\MyProject\\MyAPI\\ApiProject\\MyWebAPI\\MyWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyFiles\\Project\\MyWebAPI\\MyWebAPI\\MyWebAPI.csproj",
+        "projectUniqueName": "D:\\MyProject\\MyAPI\\ApiProject\\MyWebAPI\\MyWebAPI.csproj",
         "projectName": "MyWebAPI",
-        "projectPath": "E:\\MyFiles\\Project\\MyWebAPI\\MyWebAPI\\MyWebAPI.csproj",
-        "packagesPath": "C:\\Users\\mirzaei\\.nuget\\packages\\",
-        "outputPath": "E:\\MyFiles\\Project\\MyWebAPI\\MyWebAPI\\obj\\",
+        "projectPath": "D:\\MyProject\\MyAPI\\ApiProject\\MyWebAPI\\MyWebAPI.csproj",
+        "packagesPath": "C:\\Users\\Fariba-Notebook\\.nuget\\packages\\",
+        "outputPath": "D:\\MyProject\\MyAPI\\ApiProject\\MyWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mirzaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fariba-Notebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -22,7 +22,7 @@ namespace MyWebAPI.Controllers
         //}
 
         [HttpGet]
-        public async Task<IEnumerable<Issue>> Get()
+        public async Task<IEnumerable<Issue1>> Get()
         {
             return await _context.Issues.ToListAsync();
         }
@@ -40,7 +40,7 @@ namespace MyWebAPI.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> CreateIssue(Issue issue)
+        public async Task<IActionResult> CreateIssue(Issue1 issue)
         {
             await _context.AddAsync(issue);
             await _context.SaveChangesAsync();
@@ -51,7 +51,7 @@ namespace MyWebAPI.Controllers
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> EditIssue(int id , Issue issue)
+        public async Task<IActionResult> EditIssue(int id , Issue1 issue)
         {
             if (id != issue.IssueId) return BadRequest();
 
