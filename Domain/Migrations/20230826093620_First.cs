@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace MyWebAPI.Migrations
+namespace Domain.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstM : Migration
+    public partial class First : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -14,15 +14,18 @@ namespace MyWebAPI.Migrations
                 name: "Issues",
                 columns: table => new
                 {
-                    IssueId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    IssueId = table.Column<int>(type: "int", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Type = table.Column<int>(type: "int", nullable: false)
+                    Type = table.Column<int>(type: "int", nullable: false),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedDate = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Issues", x => x.IssueId);
+                    table.PrimaryKey("PK_Issues", x => x.Id);
                 });
         }
 

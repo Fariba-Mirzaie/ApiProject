@@ -1,0 +1,15 @@
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\bin\Debug\net6.0\Repository.deps.json
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\bin\Debug\net6.0\Repository.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\bin\Debug\net6.0\ref\Repository.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\bin\Debug\net6.0\Repository.pdb
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\bin\Debug\net6.0\Domain.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\bin\Debug\net6.0\Domain.pdb
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\Repository.csproj.CopyComplete
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\Repository.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\ref\Repository.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Repository\obj\Debug\net6.0\Repository.pdb

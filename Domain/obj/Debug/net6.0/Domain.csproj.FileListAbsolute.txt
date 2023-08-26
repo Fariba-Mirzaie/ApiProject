@@ -1,0 +1,14 @@
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\bin\Debug\net6.0\Domain.deps.json
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\bin\Debug\net6.0\Domain.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\bin\Debug\net6.0\ref\Domain.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\bin\Debug\net6.0\Domain.pdb
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\Domain.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\ref\Domain.dll
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\Domain.pdb
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+E:\MyFiles\Project\MyAPI\ApiProject\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache

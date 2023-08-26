@@ -1,6 +1,8 @@
-﻿namespace MyWebAPI.Models
+﻿using Domain.Models;
+
+namespace MyWebAPI.Models
 {
-    public class Issue
+    public class Issue :BaseEntity
     {
         public int IssueId { get; set; }
         public string Title { get; set; }

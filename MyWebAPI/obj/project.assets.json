@@ -1018,6 +1018,46 @@
             "rid": "win"
           }
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
+        }
       }
     }
   },
@@ -3488,32 +3528,49 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Service.csproj",
+      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
+      "Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fariba-Notebook\\.nuget\\packages\\": {}
+    "C:\\Users\\mirzaei\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProject\\MyAPI\\ApiProject\\MyWebAPI\\MyWebAPI.csproj",
+      "projectUniqueName": "E:\\MyFiles\\Project\\MyAPI\\ApiProject\\MyWebAPI\\MyWebAPI.csproj",
       "projectName": "MyWebAPI",
-      "projectPath": "D:\\MyProject\\MyAPI\\ApiProject\\MyWebAPI\\MyWebAPI.csproj",
-      "packagesPath": "C:\\Users\\Fariba-Notebook\\.nuget\\packages\\",
-      "outputPath": "D:\\MyProject\\MyAPI\\ApiProject\\MyWebAPI\\obj\\",
+      "projectPath": "E:\\MyFiles\\Project\\MyAPI\\ApiProject\\MyWebAPI\\MyWebAPI.csproj",
+      "packagesPath": "C:\\Users\\mirzaei\\.nuget\\packages\\",
+      "outputPath": "E:\\MyFiles\\Project\\MyAPI\\ApiProject\\MyWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Fariba-Notebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mirzaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3526,7 +3583,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\MyFiles\\Project\\MyAPI\\ApiProject\\Domain\\Domain.csproj": {
+              "projectPath": "E:\\MyFiles\\Project\\MyAPI\\ApiProject\\Domain\\Domain.csproj"
+            },
+            "E:\\MyFiles\\Project\\MyAPI\\ApiProject\\Service\\Service.csproj": {
+              "projectPath": "E:\\MyFiles\\Project\\MyAPI\\ApiProject\\Service\\Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

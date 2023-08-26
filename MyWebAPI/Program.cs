@@ -1,8 +1,11 @@
 using Microsoft.EntityFrameworkCore;
-using MyWebAPI.Models;
-using MyWebAPI.Models.Interfaces;
-using MyWebAPI.Models.Repository;
 using System.Text.Json.Serialization;
+using Domain.Data;
+using MyWebAPI.Models;
+using Service.ICustomServices;
+using Service.CustomServices;
+using Repository.IRepository;
+using Repository.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,10 +22,11 @@ builder.Services
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped<ICustomService<Issue>, IssueService>();
+
 builder.Services.AddDbContext<MyContext>(
     option => option.UseSqlServer(builder.Configuration.GetConnectionString("MyConnectionString")));
-
-//builder.Services.AddScoped<IIssueRepository, IssueRepository>();
 
 var app = builder.Build();
 
